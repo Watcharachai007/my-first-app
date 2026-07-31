@@ -6,7 +6,7 @@ st.write("กรอกข้อมูลน้ำหนักและส่ว�
 weight = st.number_input("กรอกค่าน้ำหนักของคุณ (Kg): ")
 height_cm = st.number_input("กรอกข้อมูลส่วนสูงของคุณ (Cm)")
 
-if st.buttom("คำนวณ ค่า BMI 🎯"):
+if st.buttom("คำนวณ ค่า BMI 🎯")
   height_m = height_cm / 100
   bmi = weight / (height_m ** 2)
   st.write("---")
