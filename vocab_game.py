@@ -89,11 +89,11 @@ ans2 = st.text_input(
 )
 ans3 = st.text_input(
     "ข้อ 3: We are reading a  `b _ _ k_ `. 📚 ",
-     value=st.session_state.ans3_val,
+    value=st.session_state.ans3_val,
  )
 ans4 = st.text_input(
     "ข้อ 4: I like a `C _ c _ n u _ t` water's . 🥥  ",
-     value=st.session_state.ans4_val,
+    value=st.session_state.ans4_val,
 )
 st.session_state.ans1_val = ans1
 st.session_state.ans2_val = ans2
