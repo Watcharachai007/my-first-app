@@ -81,23 +81,43 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     else:  
       st.error(f"❌ ข้อ 4: 😡😡😡 (คุณตอบ '{u_ans4}')")
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    if u_ans5 == "apple":
+        st.success("✅ ข้อ 5: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 5: ยังไม่ถูกต้อง (คุณตอบ '{u_ans5}')")
+
+    if u_ans6 == "fish":
+        st.success("✅ ข้อ 6: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 6: ยังไม่ถูกต้อง (คุณตอบ '{u_ans6}')")
+
+    if u_ans7 == "books":
+       st.success("✅ ข้อ 7: ถูกต้อง")
+       score += 1
+    else:
+      st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans7}')")
+      score += 1
+
+    if u_ans8 == "coconut":
+       st.success("✅ ข้อ 8: ถูกต้อง")
+       score += 1
+    else:  
+      st.error(f"❌ ข้อ 8: ยังไม่ถูกต้อง (คุณตอบ '{u_ans8}')")
+
+    if u_ans9 == "apple":
+        st.success("✅ ข้อ 9: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 9: ยังไม่ถูกต้อง (คุณตอบ '{u_ans9}')")
+        
+    if u_ans10 == "fish":
+        st.success("✅ ข้อ 10: ถูกต้อง")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 10: ยังไม่ถูกต้อง (คุณตอบ '{u_ans10}')")
+
     st.info(f"🗿📊 ได้คะแนนรวม: {score} คะแนน🔥")
 
     if score == 4:
