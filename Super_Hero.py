@@ -55,64 +55,64 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     u_ans9 = ans9.strip().lower()
     u_ans10 = ans10.strip().lower()
 
-    if u_ans1 == "apple":
+    if u_ans1 == "Spider man":
         st.success("✅ ข้อ 1: Excellent💯")
         score += 1
     else:
         st.error(f"❌ ข้อ 1: 🤡🤡🤡 (คุณตอบ '{u_ans1}')")
 
   
-    if u_ans2 == "fish":
+    if u_ans2 == "Captain America":
         st.success("✅ ข้อ 2: NICE 🤩")
         score += 1
     else:
         st.error(f"❌ ข้อ 2: 😭😭😭 (คุณตอบ '{u_ans2}')")
 
-    if u_ans3 == "books":
+    if u_ans3 == "Thor":
        st.success("✅ ข้อ 3: Good job 😎😎😎")
        score += 1
     else:
       st.error(f"❌ ข้อ 3: 😔😔😔 (คุณตอบ '{u_ans3}')")
       score += 1
 
-    if u_ans4 == "coconut":
+    if u_ans4 == "Loki":
        st.success("✅ ข้อ 4 : Hodjadpre~😃😃😃")
        score += 1
     else:  
       st.error(f"❌ ข้อ 4: 😡😡😡 (คุณตอบ '{u_ans4}')")
 
-    if u_ans5 == "apple":
+    if u_ans5 == "Dr.Doom":
         st.success("✅ ข้อ 5: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 5: ยังไม่ถูกต้อง (คุณตอบ '{u_ans5}')")
 
-    if u_ans6 == "fish":
+    if u_ans6 == "Hawk eye":
         st.success("✅ ข้อ 6: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 6: ยังไม่ถูกต้อง (คุณตอบ '{u_ans6}')")
 
-    if u_ans7 == "books":
+    if u_ans7 == "Iron man":
        st.success("✅ ข้อ 7: ถูกต้อง")
        score += 1
     else:
       st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans7}')")
       score += 1
 
-    if u_ans8 == "coconut":
+    if u_ans8 == "Black widow":
        st.success("✅ ข้อ 8: ถูกต้อง")
        score += 1
     else:  
       st.error(f"❌ ข้อ 8: ยังไม่ถูกต้อง (คุณตอบ '{u_ans8}')")
 
-    if u_ans9 == "apple":
+    if u_ans9 == "Hulk":
         st.success("✅ ข้อ 9: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 9: ยังไม่ถูกต้อง (คุณตอบ '{u_ans9}')")
         
-    if u_ans10 == "fish":
+    if u_ans10 == "Falcon":
         st.success("✅ ข้อ 10: ถูกต้อง")
         score += 1
     else:
