@@ -54,5 +54,56 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     u_ans8 = ans8.strip().lower()
     u_ans9 = ans9.strip().lower()
     u_ans10 = ans10.strip().lower()
+
+    if u_ans1 == "apple":
+        st.success("✅ ข้อ 1: Excellent💯")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 1: 🤡🤡🤡 (คุณตอบ '{u_ans1}')")
+
+  
+    if u_ans2 == "fish":
+        st.success("✅ ข้อ 2: NICE 🤩")
+        score += 1
+    else:
+        st.error(f"❌ ข้อ 2: 😭😭😭 (คุณตอบ '{u_ans2}')")
+
+    if u_ans3 == "books":
+       st.success("✅ ข้อ 3: Good job 😎😎😎")
+       score += 1
+    else:
+      st.error(f"❌ ข้อ 3: 😔😔😔 (คุณตอบ '{u_ans3}')")
+      score += 1
+
+    if u_ans4 == "coconut":
+       st.success("✅ ข้อ 4 : Hodjadpre~😃😃😃")
+       score += 1
+    else:  
+      st.error(f"❌ ข้อ 4: 😡😡😡 (คุณตอบ '{u_ans4}')")
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    st.info(f"🗿📊 ได้คะแนนรวม: {score} คะแนน🔥")
+
+    if score == 4:
+        st.success("🎉 You win!")
+    else:
+        st.error("💀 You lose!")
+
    
   
