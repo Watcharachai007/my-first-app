@@ -120,9 +120,9 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
     if score == 10:
         st.success("👽🤴🗿God!!!")
-    if 5 <= score <=9
+    if 5 <= score <=9:
         st.warning("🤑🤩Pro🤠😞")
-    if 1 <= score <=4
+    if 1 <= score <=4:
         st.error ("🌚💀Noob👎🤡") 
 
 st.button("🔥🔥START🔥🔥", on_click=reset_game)
