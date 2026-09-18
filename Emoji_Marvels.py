@@ -201,5 +201,6 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 if st.session_state.get("is_ended", False):
     show_result_dialog(ans1,ans2,ans3,ans4,ans5,ans6,ans7,ans8,ans9,ans10)
 
-
+st.divider()
+st.warning("พิมด้วยพิกทั้งหมดและเว้นวรรคด้วย***")
 
