@@ -55,62 +55,62 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     u_ans9 = ans9.strip().lower()
     u_ans10 = ans10.strip().lower()
 
-    if u_ans1 == "Spider man":
+    if u_ans1 == "spider man":
         st.success("✅ ข้อ 1: Excellent💯")
         score += 1
     else:
         st.error(f"❌ ข้อ 1: 🤡🤡🤡 (คุณตอบ '{u_ans1}')")
 
   
-    if u_ans2 == "Captain America":
+    if u_ans2 == "captain america":
         st.success("✅ ข้อ 2: NICE 🤩")
         score += 1
     else:
         st.error(f"❌ ข้อ 2: 😭😭😭 (คุณตอบ '{u_ans2}')")
 
-    if u_ans3 == "Thor":
+    if u_ans3 == "thor":
        st.success("✅ ข้อ 3: Good job 😎😎😎")
        score += 1
     else:
         st.error(f"❌ ข้อ 3: 😔😔😔 (คุณตอบ '{u_ans3}')")
         
-    if u_ans4 == "Loki":
+    if u_ans4 == "loki":
        st.success("✅ ข้อ 4 : Hodjadpre~😃😃😃")
        score += 1
     else:  
         st.error(f"❌ ข้อ 4: 😡😡😡 (คุณตอบ '{u_ans4}')")
 
-    if u_ans5 == "Dr.Doom":
+    if u_ans5 == "dr.doom":
         st.success("✅ ข้อ 5: 👍GOOD😊💯")
         score += 1
     else:
         st.error(f"❌ ข้อ 5: Oh no 😭 (คุณตอบ '{u_ans5}')")
 
-    if u_ans6 == "Hawk eye":
+    if u_ans6 == "hawk eye":
         st.success("✅ ข้อ 6: That's right✅")
         score += 1
     else:
         st.error(f"❌ ข้อ 6: Try again 🤡🤡 (คุณตอบ '{u_ans6}')")
 
-    if u_ans7 == "Iron man":
+    if u_ans7 == "iron man":
        st.success("✅ ข้อ 7: Good 😊")
        score += 1
     else:
         st.error(f"❌ ข้อ 7: Nah uh 💩💩💩(คุณตอบ '{u_ans7}')")
       
-    if u_ans8 == "Black widow":
+    if u_ans8 == "black widow":
        st.success("✅ ข้อ 8: FR!? 🤯🤯🤯")
         
     else:  
         st.error(f"❌ ข้อ 8: Try again 🧐🧐🧐(คุณตอบ '{u_ans8}')")
 
-    if u_ans9 == "Hulk":
+    if u_ans9 == "hulk":
         st.success("✅ ข้อ 9: WoW😮😯😱")
         score += 1
     else:
         st.error(f"❌ ข้อ 9: Hell nah (คุณตอบ '{u_ans9}')")
         
-    if u_ans10 == "Falcon":
+    if u_ans10 == "falcon":
         st.success("✅ ข้อ 10: Amazing😍😈🥶")
         score += 1
     else:
