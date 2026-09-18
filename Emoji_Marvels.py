@@ -141,43 +141,43 @@ st.divider()
 
 ans1 = st.text_input(
     "Q1. ❤️🕸️🕷️ ",
-    value=st.session_state.ans1_val,
+    value=st.session_state.ans1,
 )
 ans2 = st.text_input(
     "Q2. 🛡️ ⭐ ",
-    value=st.session_state.ans2_val,
+    value=st.session_state.ans2,
 )
 ans3 = st.text_input(
     "Q3. ⚡🔨💪  ",
-    value=st.session_state.ans3_val,
+    value=st.session_state.ans3,
 )
 ans4 = st.text_input(
     "Q4. ⏳ 👑🐍 ",
-    value=st.session_state.ans4_val,
+    value=st.session_state.ans4,
 )
 ans5 = st.text_input(
     "Q5. 👑🤖🟩 ",
-    value=st.session_state.ans5_val,
+    value=st.session_state.ans5,
 )
 ans6 = st.text_input(
     "Q6. 🦅🏹🎯   ",
-    value=st.session_state.ans6_val,
+    value=st.session_state.ans6,
 )
 ans7 = st.text_input(
     "Q7. ❤️‍🔥🦾🟥💛 ",
-    value=st.session_state.ans7_val,
+    value=st.session_state.ans7,
 )
 ans8 = st.text_input(
     "Q8.   🕷👩    ",
-    value=st.session_state.ans8_val,
+    value=st.session_state.ans8,
 )
 ans9 = st.text_input(
     "Q9. 💪💚☢️ ",
-    value=st.session_state.ans9_val,
+    value=st.session_state.ans9,
 )
 ans10 = st.text_input(
     "Q10. .🦅👩🏾‍🦲i ",
-    value=st.session_state.ans10_val,
+    value=st.session_state.ans10,
 )
 
 st.session_state.ans1_val = ans1
